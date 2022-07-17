@@ -1,0 +1,20 @@
+#???????
+mail:
+  sender: 12540701@qq.com
+  recipient: 2369668922@qq.com
+  cc: 12540701@qq.com
+
+#??????
+spring:
+  mail:
+    default-encoding: UTF-8
+    username: 12540701@qq.com
+    password: ntlgamtajpjebghe
+    protocol: smtp
+    port: 587
+    properties:
+      mail:
+        smtp:
+          socketFactoryClass: javax.net.ssl.SSLSocketFactory
+        debug: true
+    host: smtp.qq.com
